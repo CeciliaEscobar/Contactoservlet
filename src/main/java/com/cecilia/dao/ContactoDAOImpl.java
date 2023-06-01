@@ -94,7 +94,7 @@ public class ContactoDAOImpl implements ContactoDAO{
            
             
         }catch(Exception e){
-            System.out.println("Error al insertar");
+            System.out.println("Error al insertar " + e);
         }
         return objContacto;
     }
