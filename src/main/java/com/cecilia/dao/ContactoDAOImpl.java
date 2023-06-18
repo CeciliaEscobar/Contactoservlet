@@ -172,7 +172,7 @@ public class ContactoDAOImpl implements ContactoDAO{
 
     @Override
     public Boolean deleteById(Integer id) {
-        String consulta = "DELETE * FROM contactos WHERE id=?";
+        String consulta = "DELETE FROM contactos WHERE id=?";
         Boolean returnValue = false;
         
         try{
